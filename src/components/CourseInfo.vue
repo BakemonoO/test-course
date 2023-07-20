@@ -58,4 +58,11 @@ const mobileList = [
     padding: 0 16px;
   }
 }
+
+@media (width > 324px) {
+  .course-info {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
 </style>

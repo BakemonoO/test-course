@@ -42,4 +42,10 @@ import CoursePayment from "@/components/CoursePayment.vue";
     display: none;
   }
 }
+
+@media (width > 1600px) {
+  .course-details {
+    justify-content: center;
+  }
+}
 </style>

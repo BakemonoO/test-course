@@ -2,8 +2,11 @@
   <div class="app">
     <main-course-banner />
     <course-info />
-    <course-details />
-    <course-overview />
+    <div class="desktop__wrapper">
+      <course-details />
+      <course-overview />
+    </div>
+
     <div class="mobile">
       <course-payment />
     </div>
@@ -57,6 +60,12 @@ const store = useStore();
     &::before {
       transform: rotate(-45deg);
     }
+  }
+}
+
+@media (width > 1600px) {
+  .desktop__wrapper {
+    align-self: center;
   }
 }
 </style>

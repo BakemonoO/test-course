@@ -43,4 +43,10 @@ const course = computed(() => {
     }
   }
 }
+
+@media (width > 1600px) {
+  .main-course-banner {
+    justify-content: space-around;
+  }
+}
 </style>
