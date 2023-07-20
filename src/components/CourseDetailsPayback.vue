@@ -50,6 +50,7 @@ const list = [
 
 .payback__header {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
 }
 

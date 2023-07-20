@@ -40,7 +40,7 @@ const store = useStore();
     height: 30px;
     position: absolute;
     top: 16px;
-    right: 30px;
+    right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
