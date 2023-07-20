@@ -79,5 +79,13 @@ const { item } = defineProps({
     padding: 20px;
     min-width: 260px;
   }
+
+  .item__wrapper {
+    gap: 24px;
+  }
+
+  .item__wrapper_text {
+    gap: 12px;
+  }
 }
 </style>
