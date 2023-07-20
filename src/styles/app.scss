@@ -1,0 +1,19 @@
+@import "@/styles/min.scss";
+@import "@/styles/constants.scss";
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+@media (width > 324px) and (width < 426px) {
+  h1 {
+    font-size: 24px;
+  }
+}
